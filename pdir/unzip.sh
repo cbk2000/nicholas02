@@ -1,7 +1,7 @@
-INPUT = ../input
-OUTPUT = ../output
+INPUT=../input
+OUTPUT=../output
 
-if [! -d "$INPUT" ]; then
+if [ ! -d "$INPUT" ]; then
 	echo "Input directory doesn't exist, exiting status 1"
 	exit 1
 fi
@@ -13,4 +13,4 @@ if [ ! -d "$OUTPUT" ]; then
 	mkdir $OUTPUT
 fi
 
-unzip $INPUT -d $OUTPUT
+unzip "$INPUT_FILE" -d $OUTPUT
