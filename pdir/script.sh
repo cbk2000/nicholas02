@@ -1,2 +1,3 @@
 bash ./unzip.sh
-python ./process.py
+python3 ./process.py
+python3 ./quiz.py
