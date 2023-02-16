@@ -16,6 +16,13 @@ ZCZC XYZ231-QUIZ:W00:Q02
 T:
 Tokyo ibukota Jepang.
 
+
+
 F:
 Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+
 

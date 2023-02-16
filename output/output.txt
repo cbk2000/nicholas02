@@ -35,6 +35,10 @@ ANSWER: A
 # ############# XXXXX
 ZCZC XYZ231-QUIZ:W00:Q02
 Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
+Osaka ibukata Jepang.
 ---
 A. true
 B. false

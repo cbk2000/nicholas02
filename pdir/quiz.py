@@ -18,12 +18,12 @@ with open(input_location, 'r') as file:
                     ans = "ANSWER: B"
 
                 flush.write(f"{header_hash}\n{header_ZCZC}")
-                check_image = file.readline()
-                if "IMG:" in check_image:
-                    flush.write(check_image)
-                    flush.write(file.readline())
-                else:
-                    flush.write(check_image)
+                flush.write(file.readline())
+                while True:
+                    next_read = file.readline().strip()
+                    if next_read == "":
+                        break
+                    flush.write(next_read+"\n")
 
                 flush.write("---\n")
                 flush.write("A. true\n")
