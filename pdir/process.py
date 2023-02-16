@@ -1,4 +1,4 @@
-file_input_location = "../output/OS231 REGISTRATION.csv"
+file_input_location = "../output/DUMMY-REGISTRATION.csv"
 file_output_location = "../output/OS_GH_USERNAME.txt"
 
 username = []

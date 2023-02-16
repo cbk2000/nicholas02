@@ -6,7 +6,7 @@ if [ ! -d "$INPUT" ]; then
 	exit 1
 fi
 
-INPUT_FILE="${INPUT}/OS231 REGISTRATION.csv.zip"
+INPUT_FILE="${INPUT}/DUMMY-REGISTRATION.csv.zip"
 
 if [ ! -d "$OUTPUT" ]; then
 	echo "Output directory doesn't exist, creating output directory"
