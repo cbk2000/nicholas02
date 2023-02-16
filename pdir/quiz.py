@@ -1,8 +1,10 @@
-input_location = "../input/input.txt"
-output_location = "../output/output.txt"
+input_location = input().strip()
+output_location = input().strip()
 
-with open(input_location, 'r') as file:
-    with open(output_location, 'w') as flush:
+print("quiz.py: reading input file...")
+with open(input_location.strip('"'), 'r') as file:    
+    print("quiz.py: writting output file...")
+    with open(output_location.strip('"'), 'w') as flush:
         header_hash = "# ############# XXXXX"
         header_ZCZC = ""
         ans = ""
@@ -29,3 +31,5 @@ with open(input_location, 'r') as file:
                 flush.write("A. true\n")
                 flush.write("B. false\n")
                 flush.write(f"{ans}\n\n")
+
+print("quiz.py: process completed")
